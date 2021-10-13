@@ -14,8 +14,8 @@
       "index",
       "inline"
     ],
-    "website": "https://github.com/PR0FESS0R-99/LuciferMoringstar_Robot",
-    "repository": "https://github.com/PR0FESS0R-99/LuciferMoringstar_Robot",
+    "website": "https://github.com/proffessorboy/LuciferMoringstar_Robot",
+    "repository": "https://github.com/proffessorboy/LuciferMoringstar_Robot",
     "env": {
         "BOT_TOKEN": {
             "description": "Your bot token.",
@@ -49,7 +49,7 @@
         },
         "START_MSG": {
             "description": "Welcome message for start command",
-            "value": "**Hey {} I'm ADV Auto Filter Bot**",
+            "value": "**Hey {} I'm ADV Auto Filter Bot** By @all_super_movies",
             "required": false
         },
         "USE_CAPTION_FILTER": {
@@ -64,7 +64,7 @@
         },
         "CUSTOM_FILE_CAPTION": {
             "description": "A custom file caption for your files. formatable with , file_name, file_caption, file_size, Read Readme.md for better understanding.",
-            "value": "",
+            "value": "@all_super_movies",
             "required": false
         },
         "AUTH_GROUPS": {
@@ -73,7 +73,7 @@
             "required": false
         },
         "DATABASE_2": {
-            "description": "mongoDB URI. Get this value from https://www.mongodb.com. For more help watch this video - https://youtu.be/gBLTsH-IXr0",
+            "description": "mongoDB URI. Get this value from https://www.mongodb.com.",
             "value": ""
         },
         "BOT_NAME": {
@@ -96,7 +96,7 @@
             "required": false
         },
         "DATABASE_1": {
-            "description": "https://youtu.be/gBLTsH-IXr0",
+            "description": "mongoDB URI. Get this value from https://www.mongodb.com. ",
             "value": "",
             "required": true
         },
@@ -106,7 +106,7 @@
             "required": true
         },
         "BROADCAST_CHANNEL": {
-            "description": "ID of a Channel (user Notification)",
+            "description": "ID of a Channel (for user Notification and logs)",
             "value": "",
             "required": true
         }
