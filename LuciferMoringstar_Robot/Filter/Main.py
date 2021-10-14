@@ -134,11 +134,14 @@ async def group(client, message):
             chat_id = message.chat.id,
             text=f"""
 👋Hey {message.from_user.mention}
-I could not find Pushpa the movie you asked for ...
+Sorry, No Movie/Series Related to the Given Word Was Found 🥺
 
-find the CORRECT MOVIE NAME from Google or IMDB and enter it here and the movie will be available ...
+Please Go to Google and Confirm the Correct Spelling 🙏
 
-If you do not receive the movie even after entering the correct name ...  @admin type movie name Inform the admin in this format .. We will upload within 24 hours""",
+Click Here To 👉 [🔍 Search 🔎](https://www.google.com/)
+
+
+✍️Or Your Spelling Is Correct Report To Admins For Add Requested File:-♠️૮ᎥᏁᏋᎷᏗ ᏇᎧᏒᏝᎴ""",
             parse_mode="html",
             reply_to_message_id=message.message_id
         )
