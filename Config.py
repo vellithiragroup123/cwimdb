@@ -41,9 +41,10 @@ Here you can search files in Inline mode or send movie name well as PM,\nYou can
 """
 START_MSG = environ.get('START_MSG', default_start_msg)
 
-FILE_CAPTION = "<b>Join [Cinema World](https://t.me/joinchat/1Ew-KutgSx04YzI1) for movies</b>\n\n<code>{file_name}</code>\nSize{file_size}\n{file_caption}."
+FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", "")
 OMDB_API_KEY = environ.get("OMDB_API_KEY", "http://www.omdbapi.com/?i=tt3896198&apikey=4f08a979")
-
+if FILE_CAPTION.strip() == "":
+    CUSTOM_FILE_CAPTION=None
 if OMDB_API_KEY.strip() == "":
     API_KEY=None
 else:
