@@ -132,9 +132,7 @@ async def group(client, message):
         else:
             LuciferMoringstar=await client.send_message(
             chat_id = message.chat.id,
-            text=f"""
-👋Hey {message.from_user.mention}
-Sorry, No Movie/Series Related to the Given Word Was Found 🥺
+            text=f"""Sorry, No Movie/Series Related to the Given Word Was Found 🥺
 
 Please Go to Google and Confirm the Correct Spelling 🙏
 
